@@ -1,4 +1,19 @@
 {
+  
+  "postCreateCommand": "echo '# Writing code upon codespace creation!'  >> codespace.md",
+
+  "customizations": {
+    "vscode": {
+        "extensions": [
+            "GitHub.copilot"
+        ]
+    },
+    "codespaces": {
+        "openFiles": [
+            "codespace.md"
+        ]
+    }
+  },
   // Name this configuration
   "name": "Codespace for Skills!",
   // Use the base codespace image
